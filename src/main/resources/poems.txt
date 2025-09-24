@@ -1,41 +1,10 @@
-Titel: Måneskin
-Tekst: Et blad i vinden / tøvende dans / frihedens mindste skridt
-Forfatter: ChatGPT
-
-Titel: Stjerner
-Tekst: Skyggerne vokser / men stjernerne / glemmer os aldrig
-Forfatter: ChatGPT
-
-Titel: Regn
-Tekst: Regndråber trommer / verden dufter nyfødt / selv stilheden lytter
-Forfatter: ChatGPT
-
-Titel: Tavshed
-Tekst: Jeg fandt ro / i din tavshed / som i en blød skovbund
-Forfatter: ChatGPT
-
-Titel: Smil
-Tekst: Et smil / stilfærdigt givet / kan varme en hel dag
-Forfatter: ChatGPT
-
-Titel: Vindue
-Tekst: Et vindue åbnes / foråret skynder sig ind / på bare fødder
-Forfatter: ChatGPT
-
-Titel: Kat
-Tekst: En kat i solstråler / blød som tiden / der langsomt smelter
-Forfatter: ChatGPT
-
-Titel: Natten
-Tekst: Natten holder vejret / mens drømme / tegner os om
-Forfatter: ChatGPT
-
-Titel: Hænder
-Tekst: Hænder mødes / og pludselig er verden / mindre at bære
-Forfatter: ChatGPT
-
-Titel: Måge
-Tekst: En måge svæver / over stille bølger / fri som tanken
-Forfatter: ChatGPT
-
-
+1|Morning Dew|Silent drops of dawn\nKissing the grass tenderly\nDaylight awakens.|Miyu Tanaka|HAIKU
+2|The Old Cat|There once was a cat from Kent,\nWhose back was a little bent.\nIt purred all the day,\nIn a most lazy way,\nAnd wondered where all its youth went.|James O’Reilly|LIMERICK
+3|Autumn Breeze|Red leaves drifting down\nWhispers of forgotten songs\nThe wind carries them.|Hiroshi Nakamura|HAIKU
+4|Playful Pup|A puppy from Leeds had a trick,\nIt always would chase after sticks.\nIt stumbled one day,\nAnd rolled in the hay,\nThen came back all covered and quick.|Clara Benson|LIMERICK
+5|Evening Silence|Moonlight on still ponds\nThe crane lifts its wings slowly\nNight deepens its breath.|Akira Sato|TANKA
+6|Love’s Dilemma|Shall I compare thee to a summer’s day?\nThou art more lovely and more temperate.\nRough winds do shake the darling buds of May,\nAnd summer’s lease hath all too short a date.|William Imitatus|SONNET
+7|Winter Solitude|Frozen fields in sleep\nEchoes hide beneath the snow\nDreams of spring linger.|Naoko Ishida|TANKA
+8|Cycle of Desire|Do not go, my love, the flame still burns,\nThe heart returns where passion yearns.\nA shadow falls, the night is near,\nYour voice is all I long to hear.\nDo not go, my love, the flame still burns.|Elena Moreau|VILLANELLE
+9|Silent Garden|Petals fall slowly\nA fragrance lingers at dusk\nMemories remain.|Sakura Mori|HAIKU
+10|The Endless Loop|I once knew a baker named Lee,\nWho dreamt he was sailing the sea.\nBut each time he woke,\nHe sighed and then spoke:\n‘I guess bread is all meant for me.’|Patrick Doyle|LIMERICK
