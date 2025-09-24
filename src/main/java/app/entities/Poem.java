@@ -1,4 +1,4 @@
 package app.entities;
 
-public class Example {
+public class Poem {
 }

@@ -20,6 +20,8 @@
         <logback-classic>1.5.16</logback-classic>
         <org.slf4j>2.0.16</org.slf4j>
         <hamcrest>3.0</hamcrest>
+        <hikari.version>5.1.0</hikari.version>
+        <javalin.version>6.3.0</javalin.version>
 
     </properties>
 
@@ -37,6 +39,12 @@
             <groupId>org.hibernate.orm</groupId>
             <artifactId>hibernate-core</artifactId>
             <version>${hibernate-version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.javalin</groupId>
+            <artifactId>javalin</artifactId>
+            <version>${javalin.version}</version>
         </dependency>
 
         <!--  LOMBOK    -->
@@ -101,6 +109,11 @@
             <artifactId>junit-jupiter</artifactId>
             <version>${testcontainers.version}</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.zaxxer</groupId>
+            <artifactId>HikariCP</artifactId>
+            <version>${hikari.version}</version>
         </dependency>
 
         <!--  Logging   -->
