@@ -5,6 +5,8 @@ import app.enums.PoemType;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.*;
 
+import java.util.List;
+
 @Getter
 @Setter
 @ToString
@@ -25,5 +27,9 @@ public class PoemDTO {
         this.text = poem.getText();
         this.author = poem.getAuthor();
         this.type = poem.getType();
+    }
+
+    public static List<PoemDTO> toDTOList(List<Poem> resultList) {
+        return resultList.stream().map(PoemDTO::new).toList();
     }
 }

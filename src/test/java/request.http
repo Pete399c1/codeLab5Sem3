@@ -1,0 +1,34 @@
+### Get all poems
+GET http://localhost:7070/poems
+Accept: application/json
+
+### Get poem by ID
+GET http://localhost:7070/poems/1
+Accept: application/json
+
+### Create a new poem
+POST http://localhost:7070/poems
+Content-Type: application/json
+
+{
+  "title": "Måneskin",
+  "text": "Et blad i vinden / tøvende dans / frihedens mindste skridt",
+  "author": "Ukendt",
+  "type": "HAIKU"
+}
+
+
+### Update a poem
+PUT http://localhost:7070/poems/1
+Content-Type: application/json
+
+{
+  "title": "Ny titel",
+  "text": "Opdateret tekst",
+  "author": "Ukendt",
+  "type": "HAIKU"
+}
+
+### Delete a poem
+DELETE http://localhost:7070/poems/1
+
