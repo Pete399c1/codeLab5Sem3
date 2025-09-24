@@ -7,12 +7,12 @@ import static io.javalin.apibuilder.ApiBuilder.path;
 
 public class Routes {
     /*
-    private HighscoresRoutes highscoresRoutes = new HighscoresRoutes();
+    private PoemRoutes poemRoutes = new PoemRoutes();
 
 
     public EndpointGroup getRoutes() {
         return () -> {
-            get("/highscore", highscoreRoutes.getRoutes());
+            get("/poems", poemRoutes.getRoutes());
         };
     }
 
