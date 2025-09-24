@@ -22,16 +22,18 @@ public class Poem {
 
     @Column(name = "poem_text")
     private String text;
-    private String Author;
+    private String author;
 
     @Enumerated(EnumType.STRING)
     @Column(name = "poem_type")
     private PoemType type;
 
-    /*
+
     public Poem(PoemDTO poemDTO){
         this.id = poemDTO.getId();
+        this.title = poemDTO.getTitle();
+        this.text = poemDTO.getText();
+        this.author = poemDTO.getAuthor();
+        this.type = poemDTO.getType();
     }
-
-     */
 }
