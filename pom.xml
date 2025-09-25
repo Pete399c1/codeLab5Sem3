@@ -17,8 +17,6 @@
         <junit.version>5.13.4</junit.version>
         <postgres.version>42.7.7</postgres.version>
         <testcontainers.version>1.20.4</testcontainers.version>
-        <logback-classic>1.5.16</logback-classic>
-        <org.slf4j>2.0.16</org.slf4j>
         <hamcrest>3.0</hamcrest>
         <hikari.version>5.1.0</hikari.version>
         <javalin.version>6.3.0</javalin.version>
@@ -116,7 +114,7 @@
             <version>${hikari.version}</version>
         </dependency>
 
-        <!--  Logging   -->
+        <!--  new stuff log and assured  -->
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
@@ -126,6 +124,19 @@
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
             <version>1.5.7</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>rest-assured</artifactId>
+            <version>5.5.0</version> <!-- Use the latest version available -->
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>json-path</artifactId>
+            <version>5.5.0</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 

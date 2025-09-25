@@ -2,14 +2,16 @@ package app.daos;
 
 import app.entities.Poem;
 import app.dtos.PoemDTO;
+
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.TypedQuery;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import java.util.List;
 
 
 public class PoemDAO {
-
     private static PoemDAO instance;
     private static EntityManagerFactory emf;
 
